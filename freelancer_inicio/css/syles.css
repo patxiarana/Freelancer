@@ -4,6 +4,7 @@
    --oscuro: #212121;
    --primario:#ffc107;
    --secundario:#0097A7;
+   --gris:#757575;
 }  /*custom propertice */
  
 html{
@@ -11,12 +12,14 @@ html{
 }
 body{
     font-size: 16px; /* 1 rem = 10 px */
+    font-family: 'Krub', sans-serif;
 }
 
 .titulo {
     text-align: center;
     font-size: 3.8rem;
-    color:var(--primario)
+    color:var(--primario);
+    
   }
 
  .titulo span{
