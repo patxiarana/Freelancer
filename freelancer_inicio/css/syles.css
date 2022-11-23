@@ -5,6 +5,7 @@
    --primario:#ffc107;
    --secundario:#0097A7;
    --gris:#757575;
+   --grisClaro:#DDE9F3;
 }  /*custom propertice */
  
 html{
@@ -17,6 +18,7 @@ html{
 body{
     font-size: 16px; /* 1 rem = 10 px */
     font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
 }
 h1{
   font-size: 3.8rem;
