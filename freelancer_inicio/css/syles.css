@@ -139,3 +139,13 @@ color: var(--blanco);
   display: flex;
   align-items: flex-end;
 }
+
+
+/**Servicios **/
+
+.servicios{
+display: grid;
+grid-template-columns: 33.3% 33.3%  33.3%;
+
+}
+
