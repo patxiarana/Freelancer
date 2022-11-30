@@ -142,9 +142,11 @@ color: var(--blanco);
 
 
 /**Servicios **/
-
-.servicios{
-display: grid;
-grid-template-columns: repeat(3, 1fr)
+@media (min-width: 768px) {
+  .servicios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+    }
+  
 }
 
