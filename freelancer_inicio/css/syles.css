@@ -61,12 +61,17 @@ text-align: center;
     border-radius: .5rem;
     width: 90%;
     text-align: center;
+    border: none;
   }
   @media (min-width: 480px) {
       .boton{
         width: auto;
       }
   }
+.boton:hover{
+  cursor: pointer;
+}
+
 .sombra{
   -webkit-box-shadow: 1px 5px 15px 0px rgba(61,60,61,0.51);
   -moz-box-shadow: 1px 5px 15px 0px rgba(61,60,61,0.51);
@@ -75,6 +80,28 @@ text-align: center;
   padding: 2rem;
   border-radius: 1rem;
 }
+
+
+/****Utilidades ****/
+
+.w-100{
+  width: 100%;
+}
+@media (min-width:768px) {
+    .w-100{
+      width: auto;
+    }
+}
+
+.flex{
+  display: flex;
+}
+
+.aline{
+justify-content: flex-end;
+}
+
+/***** navegacion principal ***/
   .nav-bg{
     background-color: var(--secundario);
 
@@ -203,4 +230,29 @@ border: none;
   font-weight: 700;
   margin-bottom: 2rem;
   color: var(--primario);
+}
+
+
+.contenedor-campos {
+
+}
+
+
+.campo {
+margin-bottom: 1rem;
+}
+
+
+.campo label{
+color: var(--blanco);
+font-weight: bold;
+margin-bottom: .5rem;
+display: block;
+}
+
+.input-text {
+width: 100%;
+border: none;
+padding: 1.5rem;
+border-radius: .5rem;
 }
